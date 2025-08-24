@@ -1,59 +1,108 @@
-# Solutions
+# Soluciones Integrales - Página Web
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
+Una página web moderna y atractiva construida con Angular 20 y Tailwind CSS, inspirada en sicerg.com.
 
-## Development server
+## 🚀 Características
 
-To start a local development server, run:
+- **Diseño Moderno**: Interfaz elegante y profesional con gradientes y efectos visuales
+- **Responsive**: Optimizado para todos los dispositivos
+- **Swiper Integration**: Carousel interactivo con animaciones suaves
+- **Tailwind CSS**: Framework de CSS utility-first para un desarrollo rápido
+- **Angular 20**: Framework moderno con las últimas características
+- **Animaciones**: Transiciones y efectos visuales atractivos
 
-```bash
-ng serve
-```
+## 🛠️ Tecnologías Utilizadas
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Angular 20
+- Tailwind CSS
+- Swiper.js
+- TypeScript
+- SCSS
 
-## Code scaffolding
+## 📦 Instalación
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. **Instalar dependencias de Tailwind CSS:**
+   ```bash
+   npm install -D tailwindcss postcss autoprefixer
+   ```
 
-```bash
-ng generate component component-name
-```
+2. **Instalar dependencias del proyecto:**
+   ```bash
+   npm install
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+3. **Inicializar Tailwind CSS (si no se ha hecho):**
+   ```bash
+   npx tailwindcss init -p
+   ```
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 🚀 Ejecutar el Proyecto
 
 ```bash
-ng test
+npm start
 ```
 
-## Running end-to-end tests
+El proyecto estará disponible en `http://localhost:4200`
 
-For end-to-end (e2e) testing, run:
+## 🎨 Personalización
 
-```bash
-ng e2e
-```
+### Colores
+Los colores principales están definidos en `tailwind.config.js`:
+- **Primary**: Azul (#2563eb)
+- **Accent**: Amarillo (#f59e0b)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### Contenido
+Edita el archivo `src/app/home/home.component.html` para modificar:
+- Textos y contenido
+- Imágenes y logos
+- Información de contacto
+- Servicios ofrecidos
 
-## Additional Resources
+### Estilos
+Los estilos están basados en Tailwind CSS. Puedes:
+- Modificar clases en el HTML
+- Agregar estilos personalizados en `src/styles.scss`
+- Configurar nuevos colores en `tailwind.config.js`
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📱 Secciones de la Página
+
+1. **Hero Section**: Banner principal con título y botones de acción
+2. **Swiper Section**: Carousel de soluciones con Swiper.js
+3. **Servicios**: Grid de servicios especializados
+4. **Sobre Nosotros**: Información de la empresa
+5. **Contacto**: Formulario y información de contacto
+6. **Footer**: Enlaces y redes sociales
+
+## 🔧 Configuración de Swiper
+
+El carousel está configurado con:
+- Navegación con flechas
+- Paginación
+- Autoplay cada 5 segundos
+- Efecto de transición fade
+- Loop infinito
+
+## 📝 Notas de Desarrollo
+
+- El proyecto usa Angular standalone components
+- Tailwind CSS está configurado para escanear archivos HTML y TS
+- Las animaciones están definidas en `tailwind.config.js`
+- El diseño es completamente responsive
+
+## 🚀 Próximos Pasos
+
+- [ ] Agregar más páginas (Portafolio, Blog, etc.)
+- [ ] Implementar formulario de contacto funcional
+- [ ] Agregar más animaciones y transiciones
+- [ ] Optimizar para SEO
+- [ ] Agregar tests unitarios
+
+## 📞 Soporte
+
+Para cualquier pregunta o soporte, contacta a:
+- Email: info@solucionesintegrales.com
+- Teléfono: +1 (555) 123-4567
+
+---
+
+© 2024 Soluciones Integrales. Todos los derechos reservados.
