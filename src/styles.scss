@@ -22,6 +22,26 @@
   }
 }
 
+/* ARG SOLUCIONES ELÉCTRICAS - Paleta de Colores Personalizada */
+:root {
+  /* Colores principales del logo */
+  --arg-black: #000000;
+  --arg-orange-bright: #FF6600;
+  --arg-orange-dark: #FF4500;
+  --arg-blue-deep: #1A1A33;
+  --arg-blue-light: #1A1A33;
+  --arg-blue-cyan: #1A1A33;
+  
+  /* Colores de acento */
+  --arg-orange-gradient-1: #FFB300;
+  --arg-orange-gradient-2: #FFCC00;
+  --arg-blue-indigo: #2F2F6F;
+  
+  /* Colores neutros */
+  --arg-gray-light: #A9A9A9;
+  --arg-gray-medium: #B0C4DE;
+}
+
 @layer components {
   .btn-primary {
     @apply bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg;
@@ -39,5 +59,138 @@
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
   
-
+  /* Clases personalizadas con la paleta ARG */
+  .bg-arg-primary {
+    background-color: var(--arg-orange-bright);
+  }
+  
+  .bg-arg-secondary {
+    background-color: var(--arg-blue-deep);
+  }
+  
+  .bg-arg-accent {
+    background-color: var(--arg-orange-gradient-1);
+  }
+  
+  .text-arg-primary {
+    color: var(--arg-orange-bright);
+  }
+  
+  .text-arg-secondary {
+    color: var(--arg-blue-deep);
+  }
+  
+  .text-arg-accent {
+    color: var(--arg-orange-gradient-1);
+  }
+  
+  .border-arg-primary {
+    border-color: var(--arg-orange-bright);
+  }
+  
+  .border-arg-secondary {
+    border-color: var(--arg-blue-deep);
+  }
+  
+  /* Clases adicionales para la paleta ARG */
+  .bg-arg-orange-dark {
+    background-color: var(--arg-orange-dark);
+  }
+  
+  .bg-arg-orange-gradient-1 {
+    background-color: var(--arg-orange-gradient-1);
+  }
+  
+  .bg-arg-orange-gradient-2 {
+    background-color: var(--arg-orange-gradient-2);
+  }
+  
+  .bg-arg-blue-indigo {
+    background-color: var(--arg-blue-indigo);
+  }
+  
+  .bg-arg-blue-light {
+    background-color: var(--arg-blue-light);
+  }
+  
+  .bg-arg-blue-cyan {
+    background-color: var(--arg-blue-cyan);
+  }
+  
+  .bg-arg-gray-light {
+    background-color: var(--arg-gray-light);
+  }
+  
+  .bg-arg-gray-medium {
+    background-color: var(--arg-gray-medium);
+  }
+  
+  .text-arg-orange-dark {
+    color: var(--arg-orange-dark);
+  }
+  
+  .text-arg-orange-gradient-1 {
+    color: var(--arg-orange-gradient-1);
+  }
+  
+  .text-arg-orange-gradient-2 {
+    color: var(--arg-orange-gradient-2);
+  }
+  
+  .text-arg-blue-indigo {
+    color: var(--arg-blue-indigo);
+  }
+  
+  .text-arg-blue-light {
+    color: var(--arg-blue-light);
+  }
+  
+  .text-arg-blue-cyan {
+    color: var(--arg-blue-cyan);
+  }
+  
+  .text-arg-gray-light {
+    color: var(--arg-gray-light);
+  }
+  
+  .text-arg-gray-medium {
+    color: var(--arg-gray-medium);
+  }
+  
+  .border-arg-orange-dark {
+    border-color: var(--arg-orange-dark);
+  }
+  
+  .border-arg-orange-gradient-1 {
+    border-color: var(--arg-orange-gradient-1);
+  }
+  
+  .border-arg-orange-gradient-2 {
+    border-color: var(--arg-orange-gradient-2);
+  }
+  
+  .border-arg-blue-indigo {
+    border-color: var(--arg-blue-indigo);
+  }
+  
+  .border-arg-blue-light {
+    border-color: var(--arg-blue-light);
+  }
+  
+  .border-arg-blue-cyan {
+    border-color: var(--arg-blue-cyan);
+  }
+  
+  /* Gradientes personalizados */
+  .bg-gradient-arg-primary {
+    background: linear-gradient(135deg, var(--arg-orange-bright), var(--arg-orange-dark));
+  }
+  
+  .bg-gradient-arg-secondary {
+    background: linear-gradient(135deg, var(--arg-blue-deep), var(--arg-blue-indigo));
+  }
+  
+  .bg-gradient-arg-accent {
+    background: linear-gradient(135deg, var(--arg-orange-gradient-1), var(--arg-orange-gradient-2));
+  }
 }
